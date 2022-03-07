@@ -19,7 +19,7 @@ function Detail(){
     }, []);
     
     return (
-        <span className="movie-detail">{params.title ? params.title : ''}</span>
+        <span className="movie-detail">{params == null ? '' : params.title}</span>
     )
     
 }
